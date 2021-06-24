@@ -15,7 +15,7 @@ if(mem == 0){
 }
 else if(mem == 1){
   var num = parseInt(Math.random()*20+1)
-  var num2 = parseInt(Math.random()*20)
+  var num2 = parseInt(Math.random()*19+1)
   var resp = num-num2
   var usu = window.prompt('Quanto é '+num+' MENOS '+num2+'?')
   if(usu == resp){
